@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyVersion>1.0.16.24333</AssemblyVersion>
+    <FileVersion>1.0.16.24333</FileVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ionic.Zlib.Core" Version="1.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="RC4Cryptography" Version="1.0.1" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties Reactor_Commands="-antitamp 1 -control_flow_obfuscation 1 -flow_level 1" Reactor_Configuration="Release" Reactor_Deploy="0" Reactor_Enabled="1" Reactor_Output="&lt;AssemblyLocation&gt;\&lt;AssemblyFileName&gt;" Reactor_Project="" /></VisualStudio></ProjectExtensions>
+
+</Project>
